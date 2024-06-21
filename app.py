@@ -37,7 +37,7 @@ if option == "Comparisson":
     st.write("""
     **Analisa Grafik**
 
-    Grafik ini membandingkan anggaran dari 10 film teratas dalam dataset. Film dengan anggaran tertinggi adalah judul film, dengan anggaran sekitar jumlah anggaran. Terlihat bahwa variasi anggaran antar film cukup signifikan, yang mengindikasikan bahwa beberapa film memiliki anggaran produksi yang jauh lebih besar dibandingkan yang lain. Hubungan antara anggaran produksi dengan pendapatan kotor film bisa dilihat lebih jelas dalam analisis ini.
+    Grafik ini membandingkan anggaran dari 10 film teratas dalam dataset. Film dengan anggaran tertinggi adalah Avatar, dengan anggaran sekitar 3,5 juta. Terlihat bahwa variasi anggaran antar film cukup signifikan, yang mengindikasikan bahwa beberapa film memiliki anggaran produksi yang jauh lebih besar dibandingkan yang lain. Jika dilihat dalam grafik, fil avatar memiliki anggaran tertinggi yaitu dengan jumlah 3,5 juta, dan untuk anggaran terendah ada pada film Dawn od the Planet. Jika dilihat memang tidak jauh beda dalam jumlah anggaran, dan jika dibandingkan dengan 10 film lainnya juga tidak jauh beda, rata – rata jumlah anggaran ada pada angka 2 jutaan jika dilihat dari tingginya bar pada grafik.
     """)
 
     st.subheader("Graph 2: Top 10 Film berdasarkan Pendapatan Kotor")
@@ -53,7 +53,7 @@ if option == "Comparisson":
     st.write("""
     **Analisa Grafik**
 
-    Grafik ini menampilkan 10 film teratas berdasarkan pendapatan kotor di AS. Dari grafik, kita dapat melihat film mana yang paling sukses dari segi pendapatan kotor. Film dengan pendapatan tertinggi adalah [judul film], yang berhasil meraup sekitar [jumlah pendapatan] juta dolar. Analisis ini penting untuk memahami daya tarik komersial dari film-film tertentu dan bagaimana strategi pemasaran dan distribusi mempengaruhi pendapatan mereka. Pendapatan kotor yang tinggi biasanya menunjukkan bahwa film tersebut memiliki penerimaan yang baik dari penonton dan mungkin juga didukung oleh kampanye pemasaran yang efektif serta rilis di waktu yang strategis.
+    Grafik ini menampilkan 10 film teratas berdasarkan pendapatan kotor di AS. Dari grafik, kita dapat melihat film mana yang paling sukses dari segi pendapatan kotor. Film dengan pendapatan tertinggi adalah Spiderman, yang berhasil meraup sekitar 8 juta dolar, dan untuk film yang paling sedikit pendapatannya yaitu Dawn of the Planet. Pendapatan kotor yang tinggi biasanya menunjukkan bahwa film tersebut memiliki penerimaan yang baik dari penonton dan mungkin juga didukung oleh kampanye pemasaran yang efektif serta rilis di waktu yang strategis. 
     """)
 
 # Hubungan: Anggaran vs Pendapatan Kotor
@@ -71,7 +71,7 @@ elif option == "Relationship":
     st.write("""
     **Analisa Grafik**
 
-    Scatter plot ini mengilustrasikan hubungan antara anggaran produksi film dengan pendapatan kotor yang dihasilkan. Terlihat dari grafik bahwa tidak selalu film dengan anggaran tinggi menghasilkan pendapatan kotor yang besar. Namun demikian, ada kecenderungan bahwa film dengan anggaran lebih tinggi cenderung memiliki pendapatan kotor yang lebih besar, meskipun terdapat beberapa outlier yang menunjukkan film dengan anggaran rendah namun memperoleh pendapatan kotor tinggi.
+    Grafik ini menggambarkan hubungan antara anggaran produksi film dengan pendapatan kotor yang dihasilkan. Terlihat dari grafik bahwa tidak selalu film dengan anggaran tinggi menghasilkan pendapatan kotor yang besar. Jika dilihat pada grafik ada juga film yang mengeluarkan anggaran 2 juta dan mendapatkan pendapataan kotor sejumlah 8 juta, dan ada juga film yang mengeluarkan anggaran 2 juta tetapi hanya mendapatkan pendapatan 1,5 juta saja. 
     """)
 
     st.subheader("Graph 2: Hubungan antara Pendapatan Minggu Pertama dan Pendapatan Kotor (di AS)")
@@ -85,7 +85,7 @@ elif option == "Relationship":
     st.write("""
     **Analisa Grafik**
 
-    Scatter plot ini menunjukkan hubungan antara pendapatan pada minggu pertama dengan pendapatan kotor total. Dari grafik ini, kita bisa mengamati bahwa film yang memiliki pendapatan tinggi pada minggu pertama cenderung memiliki pendapatan kotor yang tinggi juga. Hal ini menunjukkan pentingnya minggu pertama rilis film sebagai indikator kesuksesan jangka panjang. Film dengan pendapatan tinggi pada minggu pertama biasanya didukung oleh kampanye pemasaran yang besar dan perilisan di bioskop yang luas, yang menarik banyak penonton awal. Sebaliknya, film dengan pendapatan minggu pertama yang rendah mungkin menghadapi tantangan dalam mendapatkan perhatian penonton, yang dapat berdampak negatif pada pendapatan kotor total
+    Grafik ini menunjukkan hubungan antara pendapatan pada minggu pertama dengan pendapatan kotor total. Dari grafik ini, kita bisa mengamati bahwa film yang memiliki pendapatan tinggi pada minggu pertama cenderung memiliki pendapatan kotor yang tinggi juga. Seperti titik pada grafik bagian kanan, ada film yang mendapatkan penghasilan minggu pertama dengan jumlah 2,5 juta, dan mendapatkan penghasilan kotor yang tinggi juga yaitu sejumlah 8 juta, dan pada grafik bagian kiri juga banyak film yang dimana pendapatan di minggu pertama dan pendapatan kotor nya tidak jauh beda.
     """)
 
 # Komposisi: Pendapatan Minggu Pertama
@@ -102,7 +102,7 @@ elif option == "Composition":
     st.write("""
     **Analisa Grafik**
 
-    Pie chart ini menunjukkan komposisi pendapatan dari minggu pertama untuk 5 film teratas dalam dataset. Film dengan pendapatan minggu pertama tertinggi adalah judul film, yang menyumbang sekitar [persentase] dari total pendapatan minggu pertama. Analisis ini menyoroti pentingnya performa film pada minggu pertama perilisannya dalam mendukung kesuksesan akhir film tersebut.
+    Grafik ini menunjukkan komposisi pendapatan dari minggu pertama untuk 5 film teratas dalam dataset. Film dengan pendapatan minggu pertama tertinggi adalah Spiderman, yang mendapatkan sekitar 30,8%  dari total pendapatan minggu pertama. Dan untuk pendapatan paling rendah ada pada film dengan judul Godzilla yang mendapatkan sekitar 11% dari total pendapatan minggu pertama. Analisaini menyoroti pentingnya performa film pada minggu pertama perilisannya dalam mendukung kesuksesan akhir film tersebut.
     """)
 
     st.subheader("Graph 2: Komposisi Genre Film")
@@ -115,7 +115,7 @@ elif option == "Composition":
     st.write("""
     **Analisa Grafik**
 
-    Pie chart ini menggambarkan distribusi genre dari film-film dalam dataset. Dari grafik ini, kita dapat melihat genre film yang paling umum dan bagaimana distribusinya. Genre yang dominan mungkin mencerminkan tren industri film dan preferensi penonton pada periode tertentu. Misalnya, jika genre aksi dan petualangan mendominasi, ini bisa menunjukkan minat penonton yang tinggi terhadap film dengan elemen aksi dan petualangan. Sebaliknya, jika genre drama atau dokumenter memiliki persentase yang lebih kecil, ini bisa menunjukkan bahwa film dengan genre tersebut kurang populer atau diproduksi lebih sedikit. Memahami distribusi genre ini membantu produser dan pembuat film dalam membuat keputusan tentang genre apa yang akan diproduksi untuk menarik penonton.
+    Pie chart ini menggambarkan distribusi genre dari film-film dalam dataset. Dari grafik ini, kita dapat melihat genre film yang paling umum dan bagaimana distribusinya. Genre yang dominan mungkin mencerminkan tren industri film dan preferensi penonton pada periode tertentu. Misalnya, jika genre aksi dan petualangan mendominasi, ini bisa menunjukkan minat penonton yang tinggi terhadap film dengan elemen aksi dan petualangan. Sebaliknya, jika genre drama atau dokumenter memiliki persentase yang lebih kecil, ini bisa menunjukkan bahwa film dengan genre tersebut kurang populer atau diproduksi lebih sedikit. Dan jika dilihat pada grafik genre yang palng popular adalah Action, Advanture, Sci-fi, dan jika diambil 1 genre yang paling popular yaitu genre action, karena selain mendapatkan nilai tertinggi, genre action juga banyak diminati, bisa dilihat dari grafik diatas, Setiap presentasi selalu terdapat genre Action.
     """)
 
 # Distribusi: Pendapatan Kotor
@@ -133,7 +133,7 @@ elif option == "Distribution":
     st.write("""
     **Analisa Grafik**
 
-    Histogram ini menggambarkan distribusi pendapatan kotor dari semua film dalam dataset. Distribusi tampaknya condong ke kanan, yang menunjukkan bahwa sebagian besar film dalam dataset memiliki pendapatan kotor yang relatif rendah, sedangkan hanya sedikit film yang mencatatkan pendapatan kotor yang sangat tinggi. Ini mencerminkan sifat industri film di mana sebagian besar film menghasilkan pendapatan moderat, sementara hanya sedikit film blockbuster yang mencatatkan pendapatan kotor yang signifikan.
+    Grafik ini menggambarkan distribusi pendapatan kotor dari semua film dalam dataset. Distribusi tampaknya condong ke kanan, yang menunjukkan bahwa sebagian besar film dalam dataset memiliki pendapatan kotor yang relatif rendah, sedangkan hanya sedikit film yang mencatatkan pendapatan kotor yang sangat tinggi. Jika dilihat pada grafik memang bar yang paling tinggi menunjukan pada pendapatan 1-2 juta, yang artinya banyak film yang memiliki pendapatan dalam rentang 1-2 juta, dan pada grafik juga ditunjukkan ada 3 film yang memiliki pendapatan dalam rentang 7-8 juta.
     """)
 
     st.subheader("Graph 2: Distribusi Durasi Film")
@@ -147,5 +147,5 @@ elif option == "Distribution":
     st.write("""
     **Analisa Grafik**
 
-    Histogram ini menunjukkan distribusi durasi film dalam dataset. Dari grafik ini, kita bisa melihat rentang durasi film yang paling umum. Kebanyakan film memiliki durasi antara rentang waktu menit, dengan hanya beberapa film yang berdurasi lebih pendek atau lebih panjang. Distribusi durasi ini memberikan wawasan tentang standar industri untuk panjang film. Film dengan durasi yang lebih umum mungkin lebih mudah diterima oleh penonton, sementara film dengan durasi yang sangat panjang atau sangat pendek mungkin menargetkan audiens yang lebih spesifik. Informasi ini berguna bagi produser film dalam menentukan durasi ideal untuk film mereka agar sesuai dengan ekspektasi dan kenyamanan penonton.
+    Grafik ini menunjukkan distribusi durasi film dalam dataset. Dari grafik ini, kita bisa melihat rentang durasi film yang paling umum. Film dengan durasi yang lebih umum mungkin lebih mudah diterima oleh penonton, sementara film dengan durasi yang sangat panjang atau sangat pendek mungkin menargetkan audiens yang lebih spesifik. Seperti yang tergambar pada grafik, bar yang paling tinggi terdapat padaa durasi film 120 menit, yang artinya banyak film yang menggunakan durasi dengan panjang 120 menit, dan tidak banyak film yang menggunakan durasi yang terlalu Panjang ataupun terlalu pendek jika dilihat dari bar yang ada pada grafik. 
     """)
